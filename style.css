@@ -1,0 +1,89 @@
+html {
+    height: 100vh;
+}
+
+body {
+    /*display shape properties */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    
+    /*color properties*/
+    background-color: #090909;
+    color: whitesmoke;
+    font-size: 3em
+}
+
+body h1 {
+    /* background-color: aquamarine; */
+    margin: 1em 0 .2em 0;
+}
+
+body form {
+    /* add flex to center */
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    border: none;
+    
+    /* display text */
+    text-align: center;
+}
+
+input {
+    /* Make more pretty */
+    border: none;
+    border-radius: 10px;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+
+    /* align text */
+    text-align: center;
+    padding: .5em;
+    margin: .1em 10em;
+}
+
+#TODO {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section h2 {
+    text-align: center;
+    text-decoration: underline;
+    font-weight: 300;
+    margin: .5em;
+    font-size: .5em;
+}
+
+ul {
+    margin: 0px;
+    padding: 0%;
+}
+
+.listItem {
+    /* make smaller */
+    border-radius: 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: .4em;
+    font-weight: 600;
+    margin: .1em;
+    background-color: teal;
+    color: #090909;
+}
+
+.completed {
+    text-decoration: line-through;
+}
+
+::selection {
+    background-color: transparent;
+    color: #000;
+}
